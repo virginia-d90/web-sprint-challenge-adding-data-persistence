@@ -20,7 +20,7 @@ function findById(id){
         .first()
 }
 
-//add project
+//add project ldife
 function add(project){
     return db("projects")
     .insert(project, "id")
